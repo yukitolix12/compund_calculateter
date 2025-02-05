@@ -8,3 +8,8 @@
     padding: 10px;
     text-align: center;
 }
+
+#interest-calculator .input-block{
+    margin-bottom: 10px;
+    text-align: right;
+}
