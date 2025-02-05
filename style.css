@@ -2,4 +2,9 @@
 #interest-calculator{
     background-color: whitesmoke;
     border: 5px solid lightgray;
+    width: 400px;
+    height: 550;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
 }
