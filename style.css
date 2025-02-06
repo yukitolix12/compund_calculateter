@@ -1,5 +1,10 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-#interest-calculator{
+#interest-calculator {
     background-color: whitesmoke;
     border: 5px solid lightgray;
     width: 400px;
@@ -9,17 +14,17 @@
     text-align: center;
 }
 
-#interest-calculator .input-block{
+#interest-calculator .input-block {
     margin-bottom: 10px;
     text-align: right;
 }
 
-#calculate-button{
+#calculate-button {
     width: 175px;
     height: 50px;
     font-size: 1em;
 }
 
-#result{
+#result {
     font-size: 2em;
 }
