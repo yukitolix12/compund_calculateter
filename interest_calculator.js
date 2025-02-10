@@ -9,4 +9,6 @@ function calculate(){
     let n = Number(document.getElementById("compound").value);
     let t = Number(document.getElementById("years").value);
     let PMT = Number(document.getElementById("contribution").value);
+
+    let temp = Math.pow((1 + r/n), n*t);
 }
