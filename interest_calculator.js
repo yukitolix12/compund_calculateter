@@ -7,4 +7,6 @@ function calculate(){
     let P = Number(document.getElementById("Starting-balance").value);
     let r = Number(document.getElementById("Interest-rate").value)/100;
     let n = Number(document.getElementById("compound").value);
+    let t = Number(document.getElementById("years").value);
+    let PMT = Number(document.getElementById("contribution").value);
 }
