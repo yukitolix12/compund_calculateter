@@ -20,10 +20,10 @@ function calculate(){
     new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        labels: ["Without Interest", "Interest"],
         datasets: [{
           label: '# of Votes',
-          data: [12, 19, 3, 5, 2, 3],
+          data: [P + PMT*n*t, result],
           borderWidth: 1
         }]
       },
