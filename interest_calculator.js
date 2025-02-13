@@ -18,6 +18,9 @@ function calculate(){
     let result = (result1 + result2).toFixed(2);
     document.getElementById("result").innerText = result;
 
+    if(currChart != null){
+      
+    }
     currChart = new Chart(ctx, {
       type: 'bar',
       data: {
