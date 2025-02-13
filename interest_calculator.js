@@ -18,7 +18,7 @@ function calculate(){
     let result = (result1 + result2).toFixed(2);
     document.getElementById("result").innerText = result;
 
-    new Chart(ctx, {
+    currChart = new Chart(ctx, {
       type: 'bar',
       data: {
         labels: ["Without Interest", "Interest"],
