@@ -2,6 +2,7 @@
 const btn = document.getElementById("calculate-button");
 btn.addEventListener("click", calculate);
 const ctx = document.getElementById('myChart');
+let currChart;
 
 function calculate(){
     //Formula: A = P(1 + r/n)nt</sup>sup> + PMT((1 + r/n)nt - 1)/(r/n)
