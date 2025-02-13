@@ -19,7 +19,7 @@ function calculate(){
     document.getElementById("result").innerText = result;
 
     if(currChart != null){
-      
+      currChart.destroy();
     }
     currChart = new Chart(ctx, {
       type: 'bar',
